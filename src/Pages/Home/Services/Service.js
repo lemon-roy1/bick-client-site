@@ -10,7 +10,7 @@ const Service = ({ service }) => {
     queryKey: ["doctors"],
     queryFn: async () => {
       try {
-        const res = await fetch("http://localhost:5000/products", {
+        const res = await fetch("https://product-server-seven.vercel.app/products", {
           headers: {
             authorization: `bearer ${localStorage.getItem("accessToken")}`,
           },
