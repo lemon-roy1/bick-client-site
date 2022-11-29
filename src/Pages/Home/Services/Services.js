@@ -1,32 +1,32 @@
 import React from "react";
-import fluoride from "../../../assets/images/fluoride.png";
-import cavity from "../../../assets/images/cavity.png";
-import whitening from "../../../assets/images/whitening.png";
+import fluoride from "../../../assets/images/img/download.jpg";
+import cavity from "../../../assets/images/img/images (4).jpg";
+import whitening from "../../../assets/images/img/images.jpg";
 import Service from "./Service";
 
 const Services = () => {
   const servicesData = [
     {
       id: 1,
-      name: "Fluoride Treatment",
+      name: "dreamsbay bick",
       description:
-        "Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the",
+        "Do you want BMW Bike Wallpaper? Now its easy! Here you can download the Best BMW Bike  iPhone & mobile phones for free.",
       img: fluoride,
       button: "dreams",
-    },
+    }, 
     {
       id: 2,
-      name: "Cavity Filling",
+      name: "getty bick",
       description:
-        "Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the",
+        "Pngtree offers HD bike background images for free download. Download these bike background for many purposesas background and website background",
       img: cavity,
       button: "getty",
     },
     {
       id: 3,
-      name: "Teeth Whitening",
+      name: "alamy bick",
       description:
-        "Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the",
+        " Known by many names, including the early invention has made Drais widely acknowledged as the father of the bicycle",
       img: whitening,
       button: "alamy",
     },

@@ -40,7 +40,7 @@ const Testimonial = () => {
                     <h2 className="text-4xl">What Our Patients Says</h2>
                 </div>
                 <figure>
-                    <img className='w-24 lg:w-48' src={quote} alt="" />
+                    <img className='w-24 lg:w-48' src={quote} alt=""/>
                 </figure>
             </div>
             <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
