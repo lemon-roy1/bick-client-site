@@ -1,5 +1,6 @@
 import Main from "../../Layout/Main";
 import Blog from "../../Pages/Blog/Blog";
+// import Blog from "../../Pages/Blog/Blog";
 import Details from "../../Pages/Details/Details";
 import ErrorPage from "../../Pages/ErrorPage/ErrorPage";
 import Home from "../../Pages/Home/Home/Home";
@@ -31,8 +32,8 @@ const router = createBrowserRouter([
           element: <SignUp></SignUp>
         },
         {
-          path: '/blog',
-          element: <Blog />
+          path: '/Blog',
+         element:<Blog/>
         },
         {
           path:'/services',
